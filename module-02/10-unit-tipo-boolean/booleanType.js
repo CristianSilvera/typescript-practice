@@ -9,13 +9,13 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 // ==> Exemplo 01
-let tareaConcluida = true;
-let tareaPendiente = false;
+var tareaConcluida = true;
+var tareaPendiente = false;
 console.log(tareaConcluida);
 console.log(tareaPendiente);
 // ==> Exemplo 02
 // let finalizado: boolean = true;
-let finalizado = false;
+var finalizado = true;
 if (finalizado) {
     console.log('Tarea fué finalizada con éxito!');
 }

@@ -18,10 +18,11 @@ console.log(tareaConcluida);
 console.log(tareaPendiente);
 
 
+
 // ==> Exemplo 02
 
 // let finalizado: boolean = true;
-let finalizado: boolean = false;
+let finalizado: boolean = true;
 
 if (finalizado) {
     console.log('Tarea fué finalizada con éxito!');
