@@ -4,9 +4,11 @@
  * file: typeAnnotation.ts
  * description: file responsible for teaching basic concepts about 'Type Annotation'
  * date: 02/16/2021
- * author: Silvera Cristian <cristiansilveraa@gmail.com>
+ * author: Glaucia Lemos
  * documentation reference: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
  * Transpilation of the file: <Windows/GNU-Linux> CTRL + SHIFT + B -> tsc: build/watch
+ * Run this command to have the program monitor the changes.
+ * tsc --watch
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 // ==> Variáveis [Type Annotations]

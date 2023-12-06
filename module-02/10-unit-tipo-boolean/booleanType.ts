@@ -2,9 +2,11 @@
  * arquivo: booleanType.ts
  * descrição: arquivo responsável por ensinar conceitos básicos sobre 'Tipo Boolean'
  * date: 10/16/2023
- * author: Silvera Cristian <cristiansilveraa@gmail.com>
+ * author: Glaucia Lemos
  * doc referência: https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean
  * Transpilação do arquivo: <Windows/GNU-Linux> CTRL + SHIFT + B -> tsc: build/watch
+ * Run this command to have the program monitor the changes.
+ * tsc --watch
  */
 
 import { log } from "console";
@@ -25,7 +27,7 @@ console.log(tareaPendiente);
 let finalizado: boolean = true;
 
 if (finalizado) {
-    console.log('Tarea fué finalizada con éxito!');
+    console.log('La tarea fué finalizada con éxito!');
     
     
 } else {
