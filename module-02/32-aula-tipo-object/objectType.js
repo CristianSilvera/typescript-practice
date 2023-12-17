@@ -1,3 +1,4 @@
+"use strict";
 /* eslint-disable prettier/prettier */
 /**
  * arquivo: objectType.ts
@@ -6,8 +7,6 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  * doc referência: https://www.typescriptlang.org/docs/handbook/2/objects.html
  */
-
-
 /*
 export { };
 
@@ -201,5 +200,4 @@ console.log(acessarSistema<Admin>(admin));
 /*function acessarSistema(usuario: Usuario): Usuario {
   return usuario;
 };*/
-
 // console.log(acessarSistema(usuario));

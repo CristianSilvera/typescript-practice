@@ -17,25 +17,12 @@ function rejectMessage() {
 }
 console.log(rejectMessage());
 // ==> Exemplo 03 - Função que contém loop infinito retorna o tipo 'never'
+/*
 const loopInfinito = function loop() {
-    // eslint-disable-next-line no-constant-condition
-    /*while (true) {
-      console.log('Oi, Developers!');
-    }
-  };
-  */
-    // console.log(loopInfinito());
-    // ==> Exemplo 04: Diferença entre os tipos: 'never' x 'void'
-    // const algumaCoisaVoid: void = null;
-    // ==> dará erro! (// Error: Type 'null' is not assignable to type 'never')
-    // const algumaCoisaNever: never = null;
-    //console.log(algumaCoisaVoid);
-    //console.log(algumaCoisaNever);
-};
-// eslint-disable-next-line no-constant-condition
-/*while (true) {
-  console.log('Oi, Developers!');
-}
+  // eslint-disable-next-line no-constant-condition
+  while (true) {
+    console.log('Oi, Developers!');
+  }
 };
 */
 // console.log(loopInfinito());

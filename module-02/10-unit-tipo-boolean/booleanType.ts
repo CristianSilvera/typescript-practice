@@ -9,7 +9,7 @@
  * tsc --watch
  */
 
-import { log } from "console";
+// import { log } from "console";
 
 // ==> Exemplo 01
 

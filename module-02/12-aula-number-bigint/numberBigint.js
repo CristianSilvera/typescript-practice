@@ -8,7 +8,8 @@
  * doc referência: <bigint> https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-2.html#bigint
  * Transpilação do arquivo: <Windows> CTRL + SHIFT + B -> tsc: build/watch
  */
-Object.defineProperty(exports, "__esModule", { value: true });
+// import { Console } from "console";
+// import { CLIENT_RENEG_LIMIT } from "tls";
 // ==> Exemplos: number
 let num1 = 23.0;
 let num2 = 0x78CF;

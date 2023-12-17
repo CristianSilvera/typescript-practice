@@ -8,8 +8,8 @@
  * Transpilação do arquivo: <Windows> CTRL + SHIFT + B -> tsc: build/watch
  */
 
-import { Console } from "console";
-import { CLIENT_RENEG_LIMIT } from "tls";
+// import { Console } from "console";
+// import { CLIENT_RENEG_LIMIT } from "tls";
 
 // ==> Exemplos: number
 

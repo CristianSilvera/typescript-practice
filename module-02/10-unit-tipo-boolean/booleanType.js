@@ -9,7 +9,7 @@
  * Run this command to have the program monitor the changes.
  * tsc --watch
  */
-Object.defineProperty(exports, "__esModule", { value: true });
+// import { log } from "console";
 // ==> Exemplo 01
 let tareaConcluida = true;
 let tareaPendiente = false;
