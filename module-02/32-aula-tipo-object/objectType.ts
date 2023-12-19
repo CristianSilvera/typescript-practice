@@ -8,7 +8,7 @@
  */
 
 
-/*
+
 export { };
 
 // ==> Exemplo 01 -> Exemplo básico do uso do Type Object
