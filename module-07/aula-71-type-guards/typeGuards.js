@@ -15,10 +15,9 @@ function exibirTipo(a, b) {
     }
     throw new Error('Argumentos inválidos! Ambos os argumentos devem ser númericos ou string.');
 }
-console.log(exibirTipo('Cristian ', '2'));
+console.log(exibirTipo('Glaucia', '2'));
 console.log(exibirTipo(5, 5));
-// console.log(exibirTipo('Silvera', 5));
-
+// console.log(exibirTipo('Lemos', 5));
 // ==> Exemplo 02 - Type Guards: instanceof
 class Carro {
     constructor(nome, marca) {
@@ -44,9 +43,6 @@ const carro = new Carro('Gol', 'Volkswagen');
 console.log(detalhesVeiculo(carro));
 const moto = new Moto('CBR', 2020);
 console.log(detalhesVeiculo(moto));
-
-// ==> Exemplo 03 - Type Guards: in
-
 class Peixe {
     constructor(grupo, corPeixe) {
         this.grupo = grupo;
