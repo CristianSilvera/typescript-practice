@@ -10,7 +10,7 @@ function obterPessoaIdadeMaiorQue(pessoas, idade) {
     return pessoas.filter(pessoa => pessoa.idade > idade);
 }
 const pessoas = [
-    { nome: 'Glaucia', idade: 36 },
+    { nome: 'Cristian', idade: 36 },
     { nome: 'João', idade: 20 },
     { nome: 'Angelica', idade: 30 },
     { nome: 'Maria', idade: 25 },
@@ -24,14 +24,14 @@ console.log(pessoasComIdadeMaiorQue25);
 function juntarObjetos(objeto1, objeto2) {
     return Object.assign(Object.assign({}, objeto1), objeto2);
 }
-const pessoa = juntarObjetos({ nome: 'Glaucia', }, { idade: 36, });
+const pessoa = juntarObjetos({ nome: 'Cristian', }, { idade: 36, });
 console.log(pessoa);
-const pessoa2 = juntarObjetos({ nome: 'Glaucia' }, 36);
+const pessoa2 = juntarObjetos({ nome: 'Cristian' }, 36);
 console.log(pessoa2);
 function juntarObjetos2(objeto1, objeto2) {
     return Object.assign(Object.assign({}, objeto1), objeto2);
 }
-const pessoa3 = juntarObjetos2({ nome: 'Glaucia' }, { idade: 36 });
+const pessoa3 = juntarObjetos2({ nome: 'Cristian' }, { idade: 36 });
 
 // ==> Exemplo 03 - Type parameter in generic constraints
 
@@ -41,10 +41,10 @@ const pessoa3 = juntarObjetos2({ nome: 'Glaucia' }, { idade: 36 });
 function prop2(objeto, chave) {
     return objeto[chave];
 }
-const pessoa4 = prop2({ nome: 'Glaucia' }, 'nome');
+const pessoa4 = prop2({ nome: 'Cristian' }, 'nome');
 console.log(pessoa4);
 /*const pessoa5 = prop2(
-  { nome: 'Glaucia' }, 'idade'
+  { nome: 'Cristian' }, 'idade'
 );
 
 console.log(pessoa5);*/
